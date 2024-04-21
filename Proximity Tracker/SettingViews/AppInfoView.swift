@@ -36,7 +36,7 @@ struct InformationView: View {
             CustomSection(){
                 
                 Button(action: {
-                    writeMail(to: "bluetoothscanner99@gmail.com")
+                    writeMail(to: "promixitytracker99@gmail.com")
                 }) {
                     NavigationLinkLabel(imageName: "envelope.fill", text: "contact_developer", backgroundColor: Color(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)), isNavLink: false)
                 }

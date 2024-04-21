@@ -139,7 +139,7 @@ For technical reasons, not all features are available for every tracker type. Fo
 "security_level_high_description" = "Using the high security level will send notifications faster. You will receive notifications for trackers which follow you very fast - but you might also get a lot of false alarms with this setting.";
 
 "information_and_contact" = "Information & Contact";
-"contact_developer" = "Contact Us";
+"contact_developer" = "Send Us A Feedback";
 "credits" = "Credits";
 "developer" = "Developer";
 "maintainer" = "Maintainer";
