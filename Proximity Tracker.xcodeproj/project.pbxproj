@@ -88,6 +88,7 @@
 		1FF0AA7C2BBCC97700748948 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0AA7E2BBCC97700748948 /* Localizable.strings */; };
 		1FF0AA7F2BBCC9BA00748948 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0AA7E2BBCC97700748948 /* Localizable.strings */; };
 		1FF0AA802BBCC9BB00748948 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0AA7E2BBCC97700748948 /* Localizable.strings */; };
+		1FF863D82BD5CE9400E4FD1E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1FF863D72BD5CE9400E4FD1E /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +193,7 @@
 		1FF0AA742BBCC09200748948 /* Proximity Tracker (IOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Proximity Tracker (IOS).entitlements"; sourceTree = "<group>"; };
 		1FF0AA752BBCC0C500748948 /* Proximity--Tracker--Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Proximity--Tracker--Info.plist"; sourceTree = "<group>"; };
 		1FF0AA7D2BBCC97700748948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1FF863D72BD5CE9400E4FD1E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +305,7 @@
 			children = (
 				1FF0AA7E2BBCC97700748948 /* Localizable.strings */,
 				1FF0AA752BBCC0C500748948 /* Proximity--Tracker--Info.plist */,
+				1FF863D72BD5CE9400E4FD1E /* PrivacyInfo.xcprivacy */,
 				1FF0AA742BBCC09200748948 /* Proximity Tracker (IOS).entitlements */,
 				1FEA5CA12BBC8A250023D38D /* Proximity Tracker */,
 				1FEA5CB22BBC8A260023D38D /* Proximity TrackerTests */,
@@ -550,6 +553,7 @@
 			files = (
 				1FEA5CAA2BBC8A260023D38D /* Preview Assets.xcassets in Resources */,
 				1FF0AA7C2BBCC97700748948 /* Localizable.strings in Resources */,
+				1FF863D82BD5CE9400E4FD1E /* PrivacyInfo.xcprivacy in Resources */,
 				1FEA5CA72BBC8A260023D38D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
