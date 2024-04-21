@@ -1,0 +1,1054 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3709342BBC9CDA008C1666 /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709332BBC9CDA008C1666 /* NFCReader.swift */; };
+		1F3709362BBC9E2A008C1666 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709352BBC9E2A008C1666 /* Logger.swift */; };
+		1F37093A2BBC9E9C008C1666 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709392BBC9E9C008C1666 /* NotificationManager.swift */; };
+		1F37093D2BBC9FCD008C1666 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37093C2BBC9FCD008C1666 /* ViewExtensions.swift */; };
+		1F37093F2BBCA008008C1666 /* TapticControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37093E2BBCA008008C1666 /* TapticControl.swift */; };
+		1F3709422BBCA077008C1666 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709412BBCA077008C1666 /* IntroductionView.swift */; };
+		1F3709442BBCA084008C1666 /* BigButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709432BBCA084008C1666 /* BigButtonView.swift */; };
+		1F3709462BBCA092008C1666 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709452BBCA092008C1666 /* PermissionView.swift */; };
+		1F3709482BBCA09E008C1666 /* DoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709472BBCA09E008C1666 /* DoneView.swift */; };
+		1F37094A2BBCA153008C1666 /* LocationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709492BBCA153008C1666 /* LocationPermissionView.swift */; };
+		1F37094E2BBCA1C3008C1666 /* BluetoothPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */; };
+		1F3709502BBCA200008C1666 /* LocationAlwaysPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */; };
+		1F3709552BBCA889008C1666 /* ManualScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709542BBCA889008C1666 /* ManualScanningView.swift */; };
+		1F3709572BBCA898008C1666 /* DeviceListEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709562BBCA898008C1666 /* DeviceListEntryView.swift */; };
+		1F3709592BBCA8A7008C1666 /* ScanningAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709582BBCA8A7008C1666 /* ScanningAnimation.swift */; };
+		1F37095B2BBCA8C4008C1666 /* TrackingHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37095A2BBCA8C4008C1666 /* TrackingHistoryView.swift */; };
+		1F37095D2BBCA8D9008C1666 /* ManualScanningDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37095C2BBCA8D9008C1666 /* ManualScanningDeviceList.swift */; };
+		1F37096E2BBCAC5F008C1666 /* TrackerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37096D2BBCAC5F008C1666 /* TrackerDetailView.swift */; };
+		1F3709702BBCAC6E008C1666 /* DetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37096F2BBCAC6E008C1666 /* DetailTopView.swift */; };
+		1F3709722BBCAC7F008C1666 /* DetailMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709712BBCAC7F008C1666 /* DetailMapView.swift */; };
+		1F3709742BBCAC87008C1666 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709732BBCAC87008C1666 /* MapView.swift */; };
+		1F3709762BBCAC97008C1666 /* DetailGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709752BBCAC97008C1666 /* DetailGeneralView.swift */; };
+		1F3709782BBCACA5008C1666 /* PrecisionFindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709772BBCACA5008C1666 /* PrecisionFindingView.swift */; };
+		1F37097A2BBCACB0008C1666 /* EnableFindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709792BBCACB0008C1666 /* EnableFindingView.swift */; };
+		1F37097C2BBCACC4008C1666 /* DetailNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37097B2BBCACC4008C1666 /* DetailNotificationView.swift */; };
+		1F37097E2BBCACD6008C1666 /* DetailMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37097D2BBCACD6008C1666 /* DetailMoreView.swift */; };
+		1F3709802BBCACF2008C1666 /* RSSIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37097F2BBCACF2008C1666 /* RSSIndicator.swift */; };
+		1FE2DD952BBF33D1009937F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD942BBF33D1009937F8 /* AppDelegate.swift */; };
+		1FE2DD972BBF341B009937F8 /* AppDelegate+NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD962BBF341B009937F8 /* AppDelegate+NotificationCenter.swift */; };
+		1FE2DD992BBF34DC009937F8 /* AppDelegate+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD982BBF34DC009937F8 /* AppDelegate+Debug.swift */; };
+		1FE2DD9B2BBF35EE009937F8 /* TrackingDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD9A2BBF35EE009937F8 /* TrackingDetection.swift */; };
+		1FE2DD9D2BBF49E2009937F8 /* StudyOptInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD9C2BBF49E2009937F8 /* StudyOptInView.swift */; };
+		1FE2DD9F2BBF4C4A009937F8 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD9E2BBF4C4A009937F8 /* NotificationPermissionView.swift */; };
+		1FEA5CA32BBC8A250023D38D /* Promixity_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CA22BBC8A250023D38D /* Promixity_TrackerApp.swift */; };
+		1FEA5CA52BBC8A250023D38D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CA42BBC8A250023D38D /* ContentView.swift */; };
+		1FEA5CA72BBC8A260023D38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA5CA62BBC8A260023D38D /* Assets.xcassets */; };
+		1FEA5CAA2BBC8A260023D38D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA5CA92BBC8A260023D38D /* Preview Assets.xcassets */; };
+		1FEA5CB42BBC8A260023D38D /* Proximity_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CB32BBC8A260023D38D /* Proximity_TrackerTests.swift */; };
+		1FEA5CBE2BBC8A260023D38D /* Proximity_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CBD2BBC8A260023D38D /* Proximity_TrackerUITests.swift */; };
+		1FEA5CC02BBC8A260023D38D /* Proximity_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CBF2BBC8A260023D38D /* Proximity_TrackerUITestsLaunchTests.swift */; };
+		1FF0AA252BBCBC3800748948 /* DisableDevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA212BBCBC3800748948 /* DisableDevicesView.swift */; };
+		1FF0AA262BBCBC3800748948 /* DebugMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA222BBCBC3800748948 /* DebugMapView.swift */; };
+		1FF0AA272BBCBC3800748948 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA232BBCBC3800748948 /* AppInfoView.swift */; };
+		1FF0AA282BBCBC3800748948 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA242BBCBC3800748948 /* SettingView.swift */; };
+		1FF0AA2E2BBCBC6000748948 /* BluetoothOffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA2A2BBCBC6000748948 /* BluetoothOffView.swift */; };
+		1FF0AA2F2BBCBC6000748948 /* NavigationSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA2B2BBCBC6000748948 /* NavigationSubView.swift */; };
+		1FF0AA302BBCBC6000748948 /* CustomForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA2C2BBCBC6000748948 /* CustomForm.swift */; };
+		1FF0AA312BBCBC6000748948 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA2D2BBCBC6000748948 /* CustomLabel.swift */; };
+		1FF0AA472BBCBCCD00748948 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA332BBCBCCD00748948 /* Constants.swift */; };
+		1FF0AA482BBCBCCD00748948 /* TrackerIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA352BBCBCCD00748948 /* TrackerIconView.swift */; };
+		1FF0AA492BBCBCCD00748948 /* DefaultConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA372BBCBCCD00748948 /* DefaultConstants.swift */; };
+		1FF0AA4A2BBCBCCD00748948 /* ChipoloConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA382BBCBCCD00748948 /* ChipoloConstants.swift */; };
+		1FF0AA4B2BBCBCCD00748948 /* SmartTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA392BBCBCCD00748948 /* SmartTag.swift */; };
+		1FF0AA4C2BBCBCCD00748948 /* FindMyDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA3A2BBCBCCD00748948 /* FindMyDevice.swift */; };
+		1FF0AA4D2BBCBCCD00748948 /* AirTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA3B2BBCBCCD00748948 /* AirTag.swift */; };
+		1FF0AA4E2BBCBCCD00748948 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA3C2BBCBCCD00748948 /* Tile.swift */; };
+		1FF0AA4F2BBCBCCD00748948 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA3D2BBCBCCD00748948 /* DeviceType.swift */; };
+		1FF0AA502BBCBCCD00748948 /* BaseDevice+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA3F2BBCBCCD00748948 /* BaseDevice+CoreDataClass.swift */; };
+		1FF0AA512BBCBCCD00748948 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA402BBCBCCD00748948 /* DataModel.xcdatamodeld */; };
+		1FF0AA522BBCBCCD00748948 /* BaseDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA422BBCBCCD00748948 /* BaseDeviceExtensions.swift */; };
+		1FF0AA532BBCBCCD00748948 /* BaseDevice+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA432BBCBCCD00748948 /* BaseDevice+CoreDataProperties.swift */; };
+		1FF0AA542BBCBCCD00748948 /* DatabaseHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA442BBCBCCD00748948 /* DatabaseHelpers.swift */; };
+		1FF0AA552BBCBCCD00748948 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA452BBCBCCD00748948 /* PersistenceController.swift */; };
+		1FF0AA562BBCBCCD00748948 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA462BBCBCCD00748948 /* Settings.swift */; };
+		1FF0AA582BBCBD1D00748948 /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA572BBCBD1D00748948 /* URLSessionExtension.swift */; };
+		1FF0AA5E2BBCBD3F00748948 /* RSSIDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA592BBCBD3F00748948 /* RSSIDecoder.swift */; };
+		1FF0AA5F2BBCBD3F00748948 /* SecondsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA5A2BBCBD3F00748948 /* SecondsString.swift */; };
+		1FF0AA602BBCBD3F00748948 /* AdvertisementDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA5B2BBCBD3F00748948 /* AdvertisementDecoder.swift */; };
+		1FF0AA612BBCBD3F00748948 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA5C2BBCBD3F00748948 /* Clock.swift */; };
+		1FF0AA622BBCBD3F00748948 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA5D2BBCBD3F00748948 /* Date.swift */; };
+		1FF0AA642BBCBD5900748948 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA632BBCBD5900748948 /* LocationManager.swift */; };
+		1FF0AA6B2BBCBD6400748948 /* BluetoothRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA652BBCBD6400748948 /* BluetoothRequest.swift */; };
+		1FF0AA6C2BBCBD6400748948 /* DeviceTypeDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA662BBCBD6400748948 /* DeviceTypeDetection.swift */; };
+		1FF0AA6D2BBCBD6400748948 /* BluetoohManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA672BBCBD6400748948 /* BluetoohManager.swift */; };
+		1FF0AA6E2BBCBD6400748948 /* BluetoothManagerTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA682BBCBD6400748948 /* BluetoothManagerTimer.swift */; };
+		1FF0AA6F2BBCBD6400748948 /* BluetoothTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA692BBCBD6400748948 /* BluetoothTempData.swift */; };
+		1FF0AA702BBCBD6400748948 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA6A2BBCBD6400748948 /* SoundManager.swift */; };
+		1FF0AA722BBCBDE600748948 /* DetailDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA712BBCBDE600748948 /* DetailDebugView.swift */; };
+		1FF0AA7C2BBCC97700748948 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0AA7E2BBCC97700748948 /* Localizable.strings */; };
+		1FF0AA7F2BBCC9BA00748948 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0AA7E2BBCC97700748948 /* Localizable.strings */; };
+		1FF0AA802BBCC9BB00748948 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0AA7E2BBCC97700748948 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FEA5CB02BBC8A260023D38D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEA5C972BBC8A250023D38D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEA5C9E2BBC8A250023D38D;
+			remoteInfo = "Promixity Tracker";
+		};
+		1FEA5CBA2BBC8A260023D38D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEA5C972BBC8A250023D38D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEA5C9E2BBC8A250023D38D;
+			remoteInfo = "Promixity Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F3709332BBC9CDA008C1666 /* NFCReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReader.swift; sourceTree = "<group>"; };
+		1F3709352BBC9E2A008C1666 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		1F3709392BBC9E9C008C1666 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		1F37093C2BBC9FCD008C1666 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		1F37093E2BBCA008008C1666 /* TapticControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapticControl.swift; sourceTree = "<group>"; };
+		1F3709412BBCA077008C1666 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		1F3709432BBCA084008C1666 /* BigButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigButtonView.swift; sourceTree = "<group>"; };
+		1F3709452BBCA092008C1666 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		1F3709472BBCA09E008C1666 /* DoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneView.swift; sourceTree = "<group>"; };
+		1F3709492BBCA153008C1666 /* LocationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermissionView.swift; sourceTree = "<group>"; };
+		1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPermissionView.swift; sourceTree = "<group>"; };
+		1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAlwaysPermissionView.swift; sourceTree = "<group>"; };
+		1F3709542BBCA889008C1666 /* ManualScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualScanningView.swift; sourceTree = "<group>"; };
+		1F3709562BBCA898008C1666 /* DeviceListEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListEntryView.swift; sourceTree = "<group>"; };
+		1F3709582BBCA8A7008C1666 /* ScanningAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningAnimation.swift; sourceTree = "<group>"; };
+		1F37095A2BBCA8C4008C1666 /* TrackingHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingHistoryView.swift; sourceTree = "<group>"; };
+		1F37095C2BBCA8D9008C1666 /* ManualScanningDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualScanningDeviceList.swift; sourceTree = "<group>"; };
+		1F37096D2BBCAC5F008C1666 /* TrackerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDetailView.swift; sourceTree = "<group>"; };
+		1F37096F2BBCAC6E008C1666 /* DetailTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTopView.swift; sourceTree = "<group>"; };
+		1F3709712BBCAC7F008C1666 /* DetailMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapView.swift; sourceTree = "<group>"; };
+		1F3709732BBCAC87008C1666 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1F3709752BBCAC97008C1666 /* DetailGeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGeneralView.swift; sourceTree = "<group>"; };
+		1F3709772BBCACA5008C1666 /* PrecisionFindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecisionFindingView.swift; sourceTree = "<group>"; };
+		1F3709792BBCACB0008C1666 /* EnableFindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableFindingView.swift; sourceTree = "<group>"; };
+		1F37097B2BBCACC4008C1666 /* DetailNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNotificationView.swift; sourceTree = "<group>"; };
+		1F37097D2BBCACD6008C1666 /* DetailMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMoreView.swift; sourceTree = "<group>"; };
+		1F37097F2BBCACF2008C1666 /* RSSIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSIndicator.swift; sourceTree = "<group>"; };
+		1FE2DD942BBF33D1009937F8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FE2DD962BBF341B009937F8 /* AppDelegate+NotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+NotificationCenter.swift"; sourceTree = "<group>"; };
+		1FE2DD982BBF34DC009937F8 /* AppDelegate+Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Debug.swift"; sourceTree = "<group>"; };
+		1FE2DD9A2BBF35EE009937F8 /* TrackingDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingDetection.swift; sourceTree = "<group>"; };
+		1FE2DD9C2BBF49E2009937F8 /* StudyOptInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyOptInView.swift; sourceTree = "<group>"; };
+		1FE2DD9E2BBF4C4A009937F8 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
+		1FEA5C9F2BBC8A250023D38D /* Proximity Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proximity Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEA5CA22BBC8A250023D38D /* Promixity_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promixity_TrackerApp.swift; sourceTree = "<group>"; };
+		1FEA5CA42BBC8A250023D38D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FEA5CA62BBC8A260023D38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FEA5CA92BBC8A260023D38D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FEA5CAF2BBC8A260023D38D /* Proximity TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proximity TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEA5CB32BBC8A260023D38D /* Proximity_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proximity_TrackerTests.swift; sourceTree = "<group>"; };
+		1FEA5CB92BBC8A260023D38D /* Proximity TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proximity TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEA5CBD2BBC8A260023D38D /* Proximity_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proximity_TrackerUITests.swift; sourceTree = "<group>"; };
+		1FEA5CBF2BBC8A260023D38D /* Proximity_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proximity_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1FF0AA212BBCBC3800748948 /* DisableDevicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisableDevicesView.swift; sourceTree = "<group>"; };
+		1FF0AA222BBCBC3800748948 /* DebugMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMapView.swift; sourceTree = "<group>"; };
+		1FF0AA232BBCBC3800748948 /* AppInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+		1FF0AA242BBCBC3800748948 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		1FF0AA2A2BBCBC6000748948 /* BluetoothOffView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothOffView.swift; sourceTree = "<group>"; };
+		1FF0AA2B2BBCBC6000748948 /* NavigationSubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationSubView.swift; sourceTree = "<group>"; };
+		1FF0AA2C2BBCBC6000748948 /* CustomForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomForm.swift; sourceTree = "<group>"; };
+		1FF0AA2D2BBCBC6000748948 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		1FF0AA332BBCBCCD00748948 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1FF0AA352BBCBCCD00748948 /* TrackerIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerIconView.swift; sourceTree = "<group>"; };
+		1FF0AA372BBCBCCD00748948 /* DefaultConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultConstants.swift; sourceTree = "<group>"; };
+		1FF0AA382BBCBCCD00748948 /* ChipoloConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipoloConstants.swift; sourceTree = "<group>"; };
+		1FF0AA392BBCBCCD00748948 /* SmartTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartTag.swift; sourceTree = "<group>"; };
+		1FF0AA3A2BBCBCCD00748948 /* FindMyDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMyDevice.swift; sourceTree = "<group>"; };
+		1FF0AA3B2BBCBCCD00748948 /* AirTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirTag.swift; sourceTree = "<group>"; };
+		1FF0AA3C2BBCBCCD00748948 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		1FF0AA3D2BBCBCCD00748948 /* DeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
+		1FF0AA3F2BBCBCCD00748948 /* BaseDevice+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseDevice+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1FF0AA412BBCBCCD00748948 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		1FF0AA422BBCBCCD00748948 /* BaseDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDeviceExtensions.swift; sourceTree = "<group>"; };
+		1FF0AA432BBCBCCD00748948 /* BaseDevice+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseDevice+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1FF0AA442BBCBCCD00748948 /* DatabaseHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelpers.swift; sourceTree = "<group>"; };
+		1FF0AA452BBCBCCD00748948 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		1FF0AA462BBCBCCD00748948 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1FF0AA572BBCBD1D00748948 /* URLSessionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
+		1FF0AA592BBCBD3F00748948 /* RSSIDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSIDecoder.swift; sourceTree = "<group>"; };
+		1FF0AA5A2BBCBD3F00748948 /* SecondsString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondsString.swift; sourceTree = "<group>"; };
+		1FF0AA5B2BBCBD3F00748948 /* AdvertisementDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertisementDecoder.swift; sourceTree = "<group>"; };
+		1FF0AA5C2BBCBD3F00748948 /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		1FF0AA5D2BBCBD3F00748948 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		1FF0AA632BBCBD5900748948 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1FF0AA652BBCBD6400748948 /* BluetoothRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothRequest.swift; sourceTree = "<group>"; };
+		1FF0AA662BBCBD6400748948 /* DeviceTypeDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTypeDetection.swift; sourceTree = "<group>"; };
+		1FF0AA672BBCBD6400748948 /* BluetoohManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoohManager.swift; sourceTree = "<group>"; };
+		1FF0AA682BBCBD6400748948 /* BluetoothManagerTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManagerTimer.swift; sourceTree = "<group>"; };
+		1FF0AA692BBCBD6400748948 /* BluetoothTempData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothTempData.swift; sourceTree = "<group>"; };
+		1FF0AA6A2BBCBD6400748948 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		1FF0AA712BBCBDE600748948 /* DetailDebugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailDebugView.swift; path = "../../../../Documents/AirGuard Clone copy/Shared/Views/SheetView/DetailDebugView.swift"; sourceTree = "<group>"; };
+		1FF0AA742BBCC09200748948 /* Proximity Tracker (IOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Proximity Tracker (IOS).entitlements"; sourceTree = "<group>"; };
+		1FF0AA752BBCC0C500748948 /* Proximity--Tracker--Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Proximity--Tracker--Info.plist"; sourceTree = "<group>"; };
+		1FF0AA7D2BBCC97700748948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FEA5C9C2BBC8A250023D38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEA5CAC2BBC8A260023D38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEA5CB62BBC8A260023D38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3709322BBC9CC8008C1666 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA5B2BBCBD3F00748948 /* AdvertisementDecoder.swift */,
+				1FF0AA5C2BBCBD3F00748948 /* Clock.swift */,
+				1FF0AA5D2BBCBD3F00748948 /* Date.swift */,
+				1FF0AA592BBCBD3F00748948 /* RSSIDecoder.swift */,
+				1FF0AA5A2BBCBD3F00748948 /* SecondsString.swift */,
+				1FF0AA572BBCBD1D00748948 /* URLSessionExtension.swift */,
+				1F3709332BBC9CDA008C1666 /* NFCReader.swift */,
+				1F3709352BBC9E2A008C1666 /* Logger.swift */,
+				1F37093C2BBC9FCD008C1666 /* ViewExtensions.swift */,
+				1F37093E2BBCA008008C1666 /* TapticControl.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1F3709372BBC9E75008C1666 /* Bluetooth & Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA672BBCBD6400748948 /* BluetoohManager.swift */,
+				1FF0AA682BBCBD6400748948 /* BluetoothManagerTimer.swift */,
+				1FF0AA652BBCBD6400748948 /* BluetoothRequest.swift */,
+				1FF0AA692BBCBD6400748948 /* BluetoothTempData.swift */,
+				1FF0AA662BBCBD6400748948 /* DeviceTypeDetection.swift */,
+				1FF0AA6A2BBCBD6400748948 /* SoundManager.swift */,
+				1FF0AA632BBCBD5900748948 /* LocationManager.swift */,
+				1F3709392BBC9E9C008C1666 /* NotificationManager.swift */,
+				1FE2DD9A2BBF35EE009937F8 /* TrackingDetection.swift */,
+			);
+			path = "Bluetooth & Tracking";
+			sourceTree = "<group>";
+		};
+		1F3709402BBCA041008C1666 /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				1F3709412BBCA077008C1666 /* IntroductionView.swift */,
+				1F3709432BBCA084008C1666 /* BigButtonView.swift */,
+				1F3709452BBCA092008C1666 /* PermissionView.swift */,
+				1F3709472BBCA09E008C1666 /* DoneView.swift */,
+				1F3709492BBCA153008C1666 /* LocationPermissionView.swift */,
+				1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */,
+				1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */,
+				1FE2DD9C2BBF49E2009937F8 /* StudyOptInView.swift */,
+				1FE2DD9E2BBF4C4A009937F8 /* NotificationPermissionView.swift */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		1F3709532BBCA877008C1666 /* Manual Scanning */ = {
+			isa = PBXGroup;
+			children = (
+				1F3709542BBCA889008C1666 /* ManualScanningView.swift */,
+				1F3709562BBCA898008C1666 /* DeviceListEntryView.swift */,
+				1F3709582BBCA8A7008C1666 /* ScanningAnimation.swift */,
+				1F37095A2BBCA8C4008C1666 /* TrackingHistoryView.swift */,
+				1F37095C2BBCA8D9008C1666 /* ManualScanningDeviceList.swift */,
+			);
+			path = "Manual Scanning";
+			sourceTree = "<group>";
+		};
+		1F37096B2BBCAC40008C1666 /* SheetView */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA712BBCBDE600748948 /* DetailDebugView.swift */,
+				1F37096D2BBCAC5F008C1666 /* TrackerDetailView.swift */,
+				1F37096F2BBCAC6E008C1666 /* DetailTopView.swift */,
+				1F3709712BBCAC7F008C1666 /* DetailMapView.swift */,
+				1F3709732BBCAC87008C1666 /* MapView.swift */,
+				1F3709752BBCAC97008C1666 /* DetailGeneralView.swift */,
+				1F3709772BBCACA5008C1666 /* PrecisionFindingView.swift */,
+				1F3709792BBCACB0008C1666 /* EnableFindingView.swift */,
+				1F37097B2BBCACC4008C1666 /* DetailNotificationView.swift */,
+				1F37097D2BBCACD6008C1666 /* DetailMoreView.swift */,
+				1F37097F2BBCACF2008C1666 /* RSSIndicator.swift */,
+			);
+			path = SheetView;
+			sourceTree = "<group>";
+		};
+		1FEA5C962BBC8A250023D38D = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA7E2BBCC97700748948 /* Localizable.strings */,
+				1FF0AA752BBCC0C500748948 /* Proximity--Tracker--Info.plist */,
+				1FF0AA742BBCC09200748948 /* Proximity Tracker (IOS).entitlements */,
+				1FEA5CA12BBC8A250023D38D /* Proximity Tracker */,
+				1FEA5CB22BBC8A260023D38D /* Proximity TrackerTests */,
+				1FEA5CBC2BBC8A260023D38D /* Proximity TrackerUITests */,
+				1FEA5CA02BBC8A250023D38D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FEA5CA02BBC8A250023D38D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FEA5C9F2BBC8A250023D38D /* Proximity Tracker.app */,
+				1FEA5CAF2BBC8A260023D38D /* Proximity TrackerTests.xctest */,
+				1FEA5CB92BBC8A260023D38D /* Proximity TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FEA5CA12BBC8A250023D38D /* Proximity Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA322BBCBCCD00748948 /* Models & Type Detection */,
+				1FF0AA292BBCBC6000748948 /* Custom UI */,
+				1FF0AA202BBCBC3800748948 /* SettingViews */,
+				1F37096B2BBCAC40008C1666 /* SheetView */,
+				1F3709532BBCA877008C1666 /* Manual Scanning */,
+				1F3709402BBCA041008C1666 /* Introduction */,
+				1F3709372BBC9E75008C1666 /* Bluetooth & Tracking */,
+				1F3709322BBC9CC8008C1666 /* Helpers */,
+				1FEA5CCF2BBC94F30023D38D /* Views */,
+				1FEA5CA62BBC8A260023D38D /* Assets.xcassets */,
+				1FEA5CA82BBC8A260023D38D /* Preview Content */,
+			);
+			path = "Proximity Tracker";
+			sourceTree = "<group>";
+		};
+		1FEA5CA82BBC8A260023D38D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FEA5CA92BBC8A260023D38D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FEA5CB22BBC8A260023D38D /* Proximity TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEA5CB32BBC8A260023D38D /* Proximity_TrackerTests.swift */,
+			);
+			path = "Proximity TrackerTests";
+			sourceTree = "<group>";
+		};
+		1FEA5CBC2BBC8A260023D38D /* Proximity TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEA5CBD2BBC8A260023D38D /* Proximity_TrackerUITests.swift */,
+				1FEA5CBF2BBC8A260023D38D /* Proximity_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "Proximity TrackerUITests";
+			sourceTree = "<group>";
+		};
+		1FEA5CCF2BBC94F30023D38D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FEA5CA22BBC8A250023D38D /* Promixity_TrackerApp.swift */,
+				1FEA5CA42BBC8A250023D38D /* ContentView.swift */,
+				1FE2DD942BBF33D1009937F8 /* AppDelegate.swift */,
+				1FE2DD962BBF341B009937F8 /* AppDelegate+NotificationCenter.swift */,
+				1FE2DD982BBF34DC009937F8 /* AppDelegate+Debug.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FF0AA202BBCBC3800748948 /* SettingViews */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA212BBCBC3800748948 /* DisableDevicesView.swift */,
+				1FF0AA222BBCBC3800748948 /* DebugMapView.swift */,
+				1FF0AA232BBCBC3800748948 /* AppInfoView.swift */,
+				1FF0AA242BBCBC3800748948 /* SettingView.swift */,
+			);
+			path = SettingViews;
+			sourceTree = "<group>";
+		};
+		1FF0AA292BBCBC6000748948 /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA2A2BBCBC6000748948 /* BluetoothOffView.swift */,
+				1FF0AA2B2BBCBC6000748948 /* NavigationSubView.swift */,
+				1FF0AA2C2BBCBC6000748948 /* CustomForm.swift */,
+				1FF0AA2D2BBCBC6000748948 /* CustomLabel.swift */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
+		1FF0AA322BBCBCCD00748948 /* Models & Type Detection */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA462BBCBCCD00748948 /* Settings.swift */,
+				1FF0AA332BBCBCCD00748948 /* Constants.swift */,
+				1FF0AA342BBCBCCD00748948 /* Device Type Detection */,
+				1FF0AA3E2BBCBCCD00748948 /* CoreData */,
+			);
+			path = "Models & Type Detection";
+			sourceTree = "<group>";
+		};
+		1FF0AA342BBCBCCD00748948 /* Device Type Detection */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA352BBCBCCD00748948 /* TrackerIconView.swift */,
+				1FF0AA362BBCBCCD00748948 /* TrackerConstants */,
+				1FF0AA3D2BBCBCCD00748948 /* DeviceType.swift */,
+			);
+			path = "Device Type Detection";
+			sourceTree = "<group>";
+		};
+		1FF0AA362BBCBCCD00748948 /* TrackerConstants */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA372BBCBCCD00748948 /* DefaultConstants.swift */,
+				1FF0AA382BBCBCCD00748948 /* ChipoloConstants.swift */,
+				1FF0AA392BBCBCCD00748948 /* SmartTag.swift */,
+				1FF0AA3A2BBCBCCD00748948 /* FindMyDevice.swift */,
+				1FF0AA3B2BBCBCCD00748948 /* AirTag.swift */,
+				1FF0AA3C2BBCBCCD00748948 /* Tile.swift */,
+			);
+			path = TrackerConstants;
+			sourceTree = "<group>";
+		};
+		1FF0AA3E2BBCBCCD00748948 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA3F2BBCBCCD00748948 /* BaseDevice+CoreDataClass.swift */,
+				1FF0AA402BBCBCCD00748948 /* DataModel.xcdatamodeld */,
+				1FF0AA422BBCBCCD00748948 /* BaseDeviceExtensions.swift */,
+				1FF0AA432BBCBCCD00748948 /* BaseDevice+CoreDataProperties.swift */,
+				1FF0AA442BBCBCCD00748948 /* DatabaseHelpers.swift */,
+				1FF0AA452BBCBCCD00748948 /* PersistenceController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FEA5C9E2BBC8A250023D38D /* Proximity Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEA5CC32BBC8A260023D38D /* Build configuration list for PBXNativeTarget "Proximity Tracker" */;
+			buildPhases = (
+				1FEA5C9B2BBC8A250023D38D /* Sources */,
+				1FEA5C9C2BBC8A250023D38D /* Frameworks */,
+				1FEA5C9D2BBC8A250023D38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proximity Tracker";
+			productName = "Promixity Tracker";
+			productReference = 1FEA5C9F2BBC8A250023D38D /* Proximity Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FEA5CAE2BBC8A260023D38D /* Proximity TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEA5CC62BBC8A260023D38D /* Build configuration list for PBXNativeTarget "Proximity TrackerTests" */;
+			buildPhases = (
+				1FEA5CAB2BBC8A260023D38D /* Sources */,
+				1FEA5CAC2BBC8A260023D38D /* Frameworks */,
+				1FEA5CAD2BBC8A260023D38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEA5CB12BBC8A260023D38D /* PBXTargetDependency */,
+			);
+			name = "Proximity TrackerTests";
+			productName = "Promixity TrackerTests";
+			productReference = 1FEA5CAF2BBC8A260023D38D /* Proximity TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FEA5CB82BBC8A260023D38D /* Proximity TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEA5CC92BBC8A260023D38D /* Build configuration list for PBXNativeTarget "Proximity TrackerUITests" */;
+			buildPhases = (
+				1FEA5CB52BBC8A260023D38D /* Sources */,
+				1FEA5CB62BBC8A260023D38D /* Frameworks */,
+				1FEA5CB72BBC8A260023D38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEA5CBB2BBC8A260023D38D /* PBXTargetDependency */,
+			);
+			name = "Proximity TrackerUITests";
+			productName = "Promixity TrackerUITests";
+			productReference = 1FEA5CB92BBC8A260023D38D /* Proximity TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FEA5C972BBC8A250023D38D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1FEA5C9E2BBC8A250023D38D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1FEA5CAE2BBC8A260023D38D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1FEA5C9E2BBC8A250023D38D;
+					};
+					1FEA5CB82BBC8A260023D38D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1FEA5C9E2BBC8A250023D38D;
+					};
+				};
+			};
+			buildConfigurationList = 1FEA5C9A2BBC8A250023D38D /* Build configuration list for PBXProject "Proximity Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FEA5C962BBC8A250023D38D;
+			productRefGroup = 1FEA5CA02BBC8A250023D38D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FEA5C9E2BBC8A250023D38D /* Proximity Tracker */,
+				1FEA5CAE2BBC8A260023D38D /* Proximity TrackerTests */,
+				1FEA5CB82BBC8A260023D38D /* Proximity TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FEA5C9D2BBC8A250023D38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEA5CAA2BBC8A260023D38D /* Preview Assets.xcassets in Resources */,
+				1FF0AA7C2BBCC97700748948 /* Localizable.strings in Resources */,
+				1FEA5CA72BBC8A260023D38D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEA5CAD2BBC8A260023D38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF0AA7F2BBCC9BA00748948 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEA5CB72BBC8A260023D38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF0AA802BBCC9BB00748948 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FEA5C9B2BBC8A250023D38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F37096E2BBCAC5F008C1666 /* TrackerDetailView.swift in Sources */,
+				1F37095B2BBCA8C4008C1666 /* TrackingHistoryView.swift in Sources */,
+				1F3709762BBCAC97008C1666 /* DetailGeneralView.swift in Sources */,
+				1FF0AA6D2BBCBD6400748948 /* BluetoohManager.swift in Sources */,
+				1F3709552BBCA889008C1666 /* ManualScanningView.swift in Sources */,
+				1FF0AA4A2BBCBCCD00748948 /* ChipoloConstants.swift in Sources */,
+				1FF0AA6C2BBCBD6400748948 /* DeviceTypeDetection.swift in Sources */,
+				1FF0AA6F2BBCBD6400748948 /* BluetoothTempData.swift in Sources */,
+				1FEA5CA52BBC8A250023D38D /* ContentView.swift in Sources */,
+				1FE2DD9D2BBF49E2009937F8 /* StudyOptInView.swift in Sources */,
+				1FF0AA482BBCBCCD00748948 /* TrackerIconView.swift in Sources */,
+				1FF0AA252BBCBC3800748948 /* DisableDevicesView.swift in Sources */,
+				1FF0AA582BBCBD1D00748948 /* URLSessionExtension.swift in Sources */,
+				1F3709502BBCA200008C1666 /* LocationAlwaysPermissionView.swift in Sources */,
+				1FF0AA562BBCBCCD00748948 /* Settings.swift in Sources */,
+				1FF0AA552BBCBCCD00748948 /* PersistenceController.swift in Sources */,
+				1FEA5CA32BBC8A250023D38D /* Promixity_TrackerApp.swift in Sources */,
+				1F3709482BBCA09E008C1666 /* DoneView.swift in Sources */,
+				1F3709572BBCA898008C1666 /* DeviceListEntryView.swift in Sources */,
+				1FF0AA4E2BBCBCCD00748948 /* Tile.swift in Sources */,
+				1F37093A2BBC9E9C008C1666 /* NotificationManager.swift in Sources */,
+				1FF0AA262BBCBC3800748948 /* DebugMapView.swift in Sources */,
+				1F37094A2BBCA153008C1666 /* LocationPermissionView.swift in Sources */,
+				1F3709782BBCACA5008C1666 /* PrecisionFindingView.swift in Sources */,
+				1F3709722BBCAC7F008C1666 /* DetailMapView.swift in Sources */,
+				1FF0AA472BBCBCCD00748948 /* Constants.swift in Sources */,
+				1F3709702BBCAC6E008C1666 /* DetailTopView.swift in Sources */,
+				1FF0AA272BBCBC3800748948 /* AppInfoView.swift in Sources */,
+				1FF0AA512BBCBCCD00748948 /* DataModel.xcdatamodeld in Sources */,
+				1FE2DD9B2BBF35EE009937F8 /* TrackingDetection.swift in Sources */,
+				1FF0AA502BBCBCCD00748948 /* BaseDevice+CoreDataClass.swift in Sources */,
+				1FF0AA492BBCBCCD00748948 /* DefaultConstants.swift in Sources */,
+				1F3709742BBCAC87008C1666 /* MapView.swift in Sources */,
+				1F37097A2BBCACB0008C1666 /* EnableFindingView.swift in Sources */,
+				1FF0AA722BBCBDE600748948 /* DetailDebugView.swift in Sources */,
+				1F3709342BBC9CDA008C1666 /* NFCReader.swift in Sources */,
+				1FF0AA702BBCBD6400748948 /* SoundManager.swift in Sources */,
+				1FF0AA6E2BBCBD6400748948 /* BluetoothManagerTimer.swift in Sources */,
+				1F37094E2BBCA1C3008C1666 /* BluetoothPermissionView.swift in Sources */,
+				1FF0AA2E2BBCBC6000748948 /* BluetoothOffView.swift in Sources */,
+				1FE2DD972BBF341B009937F8 /* AppDelegate+NotificationCenter.swift in Sources */,
+				1FF0AA312BBCBC6000748948 /* CustomLabel.swift in Sources */,
+				1F37093D2BBC9FCD008C1666 /* ViewExtensions.swift in Sources */,
+				1F3709802BBCACF2008C1666 /* RSSIndicator.swift in Sources */,
+				1FF0AA602BBCBD3F00748948 /* AdvertisementDecoder.swift in Sources */,
+				1F3709462BBCA092008C1666 /* PermissionView.swift in Sources */,
+				1FE2DD9F2BBF4C4A009937F8 /* NotificationPermissionView.swift in Sources */,
+				1F37097C2BBCACC4008C1666 /* DetailNotificationView.swift in Sources */,
+				1FF0AA6B2BBCBD6400748948 /* BluetoothRequest.swift in Sources */,
+				1FE2DD952BBF33D1009937F8 /* AppDelegate.swift in Sources */,
+				1FF0AA642BBCBD5900748948 /* LocationManager.swift in Sources */,
+				1F3709592BBCA8A7008C1666 /* ScanningAnimation.swift in Sources */,
+				1FF0AA5F2BBCBD3F00748948 /* SecondsString.swift in Sources */,
+				1FF0AA5E2BBCBD3F00748948 /* RSSIDecoder.swift in Sources */,
+				1FF0AA2F2BBCBC6000748948 /* NavigationSubView.swift in Sources */,
+				1F3709362BBC9E2A008C1666 /* Logger.swift in Sources */,
+				1F37095D2BBCA8D9008C1666 /* ManualScanningDeviceList.swift in Sources */,
+				1FF0AA4C2BBCBCCD00748948 /* FindMyDevice.swift in Sources */,
+				1FF0AA542BBCBCCD00748948 /* DatabaseHelpers.swift in Sources */,
+				1F37097E2BBCACD6008C1666 /* DetailMoreView.swift in Sources */,
+				1F3709422BBCA077008C1666 /* IntroductionView.swift in Sources */,
+				1FF0AA282BBCBC3800748948 /* SettingView.swift in Sources */,
+				1FF0AA532BBCBCCD00748948 /* BaseDevice+CoreDataProperties.swift in Sources */,
+				1FF0AA4D2BBCBCCD00748948 /* AirTag.swift in Sources */,
+				1FF0AA4B2BBCBCCD00748948 /* SmartTag.swift in Sources */,
+				1FF0AA612BBCBD3F00748948 /* Clock.swift in Sources */,
+				1FF0AA622BBCBD3F00748948 /* Date.swift in Sources */,
+				1FF0AA522BBCBCCD00748948 /* BaseDeviceExtensions.swift in Sources */,
+				1FE2DD992BBF34DC009937F8 /* AppDelegate+Debug.swift in Sources */,
+				1F3709442BBCA084008C1666 /* BigButtonView.swift in Sources */,
+				1FF0AA4F2BBCBCCD00748948 /* DeviceType.swift in Sources */,
+				1FF0AA302BBCBC6000748948 /* CustomForm.swift in Sources */,
+				1F37093F2BBCA008008C1666 /* TapticControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEA5CAB2BBC8A260023D38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEA5CB42BBC8A260023D38D /* Proximity_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEA5CB52BBC8A260023D38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEA5CBE2BBC8A260023D38D /* Proximity_TrackerUITests.swift in Sources */,
+				1FEA5CC02BBC8A260023D38D /* Proximity_TrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FEA5CB12BBC8A260023D38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEA5C9E2BBC8A250023D38D /* Proximity Tracker */;
+			targetProxy = 1FEA5CB02BBC8A260023D38D /* PBXContainerItemProxy */;
+		};
+		1FEA5CBB2BBC8A260023D38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEA5C9E2BBC8A250023D38D /* Proximity Tracker */;
+			targetProxy = 1FEA5CBA2BBC8A260023D38D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FF0AA7E2BBCC97700748948 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF0AA7D2BBCC97700748948 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FEA5CC12BBC8A260023D38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FEA5CC22BBC8A260023D38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FEA5CC42BBC8A260023D38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Proximity Tracker (IOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Proximity Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = ZBG3Y53L69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Proximity--Tracker--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Proximity Tracker NFC to scan and connect to devices.";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "To scan for trackers, you need to allow acess to Bluetooth";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Proximity Tracker required Blueetooth to scan and connect.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Proximity Tracker required location to track devices";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Proximity Tracker required location to track devices.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Proximity Tracker required location to track devices.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Proximity-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1FEA5CC52BBC8A260023D38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Proximity Tracker (IOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Proximity Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = ZBG3Y53L69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Proximity--Tracker--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Proximity Tracker NFC to scan and connect to devices.";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "To scan for trackers, you need to allow acess to Bluetooth";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Proximity Tracker required Blueetooth to scan and connect.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Proximity Tracker required location to track devices";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Proximity Tracker required location to track devices.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Proximity Tracker required location to track devices.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Proximity-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1FEA5CC72BBC8A260023D38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4ZV87846Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Promixity-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proximity Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Proximity Tracker";
+			};
+			name = Debug;
+		};
+		1FEA5CC82BBC8A260023D38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4ZV87846Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Promixity-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proximity Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Proximity Tracker";
+			};
+			name = Release;
+		};
+		1FEA5CCA2BBC8A260023D38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4ZV87846Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Proximity-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proximity Tracker";
+			};
+			name = Debug;
+		};
+		1FEA5CCB2BBC8A260023D38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4ZV87846Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Proximity-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proximity Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FEA5C9A2BBC8A250023D38D /* Build configuration list for PBXProject "Proximity Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEA5CC12BBC8A260023D38D /* Debug */,
+				1FEA5CC22BBC8A260023D38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEA5CC32BBC8A260023D38D /* Build configuration list for PBXNativeTarget "Proximity Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEA5CC42BBC8A260023D38D /* Debug */,
+				1FEA5CC52BBC8A260023D38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEA5CC62BBC8A260023D38D /* Build configuration list for PBXNativeTarget "Proximity TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEA5CC72BBC8A260023D38D /* Debug */,
+				1FEA5CC82BBC8A260023D38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEA5CC92BBC8A260023D38D /* Build configuration list for PBXNativeTarget "Proximity TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEA5CCA2BBC8A260023D38D /* Debug */,
+				1FEA5CCB2BBC8A260023D38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FF0AA402BBCBCCD00748948 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FF0AA412BBCBCCD00748948 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 1FF0AA412BBCBCCD00748948 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1FEA5C972BBC8A250023D38D /* Project object */;
+}
