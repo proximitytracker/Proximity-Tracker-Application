@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FEA5C9E2BBC8A250023D38D"
-               BuildableName = "Proximity Tracker.app"
-               BlueprintName = "Proximity Tracker"
-               ReferencedContainer = "container:Proximity Tracker.xcodeproj">
+               BuildableName = "Rubber Duck.app"
+               BlueprintName = "Rubber Duck"
+               ReferencedContainer = "container:Rubber Duck.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FEA5CAE2BBC8A260023D38D"
-               BuildableName = "Proximity TrackerTests.xctest"
-               BlueprintName = "Proximity TrackerTests"
-               ReferencedContainer = "container:Proximity Tracker.xcodeproj">
+               BuildableName = "Rubber DuckTests.xctest"
+               BlueprintName = "Rubber DuckTests"
+               ReferencedContainer = "container:Rubber Duck.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,9 +46,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FEA5CB82BBC8A260023D38D"
-               BuildableName = "Proximity TrackerUITests.xctest"
-               BlueprintName = "Proximity TrackerUITests"
-               ReferencedContainer = "container:Proximity Tracker.xcodeproj">
+               BuildableName = "Rubber DuckUITests.xctest"
+               BlueprintName = "Rubber DuckUITests"
+               ReferencedContainer = "container:Rubber Duck.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FEA5C9E2BBC8A250023D38D"
-            BuildableName = "Proximity Tracker.app"
-            BlueprintName = "Proximity Tracker"
-            ReferencedContainer = "container:Proximity Tracker.xcodeproj">
+            BuildableName = "Rubber Duck.app"
+            BlueprintName = "Rubber Duck"
+            ReferencedContainer = "container:Rubber Duck.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FEA5C9E2BBC8A250023D38D"
-            BuildableName = "Proximity Tracker.app"
-            BlueprintName = "Proximity Tracker"
-            ReferencedContainer = "container:Proximity Tracker.xcodeproj">
+            BuildableName = "Rubber Duck.app"
+            BlueprintName = "Rubber Duck"
+            ReferencedContainer = "container:Rubber Duck.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
