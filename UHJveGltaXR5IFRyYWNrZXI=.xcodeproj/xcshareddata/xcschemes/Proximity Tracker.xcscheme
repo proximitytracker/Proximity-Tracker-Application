@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FEA5C9E2BBC8A250023D38D"
-               BuildableName = "Proximity93316Tracker.app"
-               BlueprintName = "Proximity93316Tracker"
-               ReferencedContainer = "container:Proximity93316Tracker.xcodeproj">
+               BuildableName = "UHJveGltaXR5IFRyYWNrZXI=.app"
+               BlueprintName = "UHJveGltaXR5IFRyYWNrZXI="
+               ReferencedContainer = "container:UHJveGltaXR5IFRyYWNrZXI=.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FEA5CAE2BBC8A260023D38D"
-               BuildableName = "Proximity93316TrackerTests.xctest"
-               BlueprintName = "Proximity93316TrackerTests"
-               ReferencedContainer = "container:Proximity93316Tracker.xcodeproj">
+               BuildableName = "UHJveGltaXR5IFRyYWNrZXI=Tests.xctest"
+               BlueprintName = "UHJveGltaXR5IFRyYWNrZXI=Tests"
+               ReferencedContainer = "container:UHJveGltaXR5IFRyYWNrZXI=.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,9 +46,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FEA5CB82BBC8A260023D38D"
-               BuildableName = "Proximity93316TrackerUITests.xctest"
-               BlueprintName = "Proximity93316TrackerUITests"
-               ReferencedContainer = "container:Proximity93316Tracker.xcodeproj">
+               BuildableName = "UHJveGltaXR5IFRyYWNrZXI=UITests.xctest"
+               BlueprintName = "UHJveGltaXR5IFRyYWNrZXI=UITests"
+               ReferencedContainer = "container:UHJveGltaXR5IFRyYWNrZXI=.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FEA5C9E2BBC8A250023D38D"
-            BuildableName = "Proximity93316Tracker.app"
-            BlueprintName = "Proximity93316Tracker"
-            ReferencedContainer = "container:Proximity93316Tracker.xcodeproj">
+            BuildableName = "UHJveGltaXR5IFRyYWNrZXI=.app"
+            BlueprintName = "UHJveGltaXR5IFRyYWNrZXI="
+            ReferencedContainer = "container:UHJveGltaXR5IFRyYWNrZXI=.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FEA5C9E2BBC8A250023D38D"
-            BuildableName = "Proximity93316Tracker.app"
-            BlueprintName = "Proximity93316Tracker"
-            ReferencedContainer = "container:Proximity93316Tracker.xcodeproj">
+            BuildableName = "UHJveGltaXR5IFRyYWNrZXI=.app"
+            BlueprintName = "UHJveGltaXR5IFRyYWNrZXI="
+            ReferencedContainer = "container:UHJveGltaXR5IFRyYWNrZXI=.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
