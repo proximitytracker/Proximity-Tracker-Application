@@ -10,7 +10,7 @@ import SwiftUI
 struct LocationPermissionView: View {
     
     @ObservedObject var locationManager = LocationManager.sharedInstance
-    
+    @ObservedObject var settings = Settings.sharedInstance
     var body: some View {
         
         let canProceed = locationManager.permissionSet
@@ -34,7 +34,14 @@ struct LocationPermissionView: View {
             }
             
         }, canSkip: true) {
-            LocationAlwaysPermissionView()
+            /* Work on this later */
+            //LocationAlwaysPermissionView()
+            
+            if(settings.appLaunchedBefore) {
+                IntroductionDoneView()
+            }else {
+                IntroductionDoneView()
+            }
         }
         .onChange(of: canProceed) { oldValue, newValue in
             IntroducationViewController.sharedInstance.canProceed = true

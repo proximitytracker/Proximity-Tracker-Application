@@ -833,6 +833,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Proximity--Tracker--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Proximity Tracker";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NFCReaderUsageDescription = "Proximity Tracker NFC to scan and connect to devices.";
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "To scan for trackers, you need to allow acess to Bluetooth";
@@ -851,7 +852,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
-				MARKETING_VERSION = 1.1.3;
+				MARKETING_VERSION = 1.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Proximity-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -877,6 +878,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Proximity--Tracker--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Proximity Tracker";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NFCReaderUsageDescription = "Proximity Tracker NFC to scan and connect to devices.";
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "To scan for trackers, you need to allow acess to Bluetooth";
@@ -895,7 +897,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
-				MARKETING_VERSION = 1.1.3;
+				MARKETING_VERSION = 1.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Proximity-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
