@@ -27,5 +27,7 @@
 	<string>Proximity Tracker required location to track devices</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>Proximity Tracker required Blueetooth to scan and connect.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Proximity Tracker required location to track devices.</string>
 </dict>
 </plist>
