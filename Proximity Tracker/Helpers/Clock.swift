@@ -29,8 +29,8 @@ class Clock : NSObject, ObservableObject {
 
         /// Fire timer every second and refresh date
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
-            self.objectWillChange.send()
-            self.currentDate = Date()
+            self.objectWillChange.send() // Notify observers that something is changing
+            self.currentDate = Date() // Update the current date to trigger UI refreshes
         }
     }
 }

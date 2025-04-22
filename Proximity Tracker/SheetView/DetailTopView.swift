@@ -8,59 +8,56 @@
 import SwiftUI
 
 struct DetailTopView: View {
+    // Top section of the tracker detail, showing name and connection info
     
-    @ObservedObject var tracker: BaseDevice
-    @ObservedObject var bluetoothData: BluetoothTempData
-    @ObservedObject var clock = Clock.sharedInstance
-    let notCurrentlyReachable: Bool
+    @ObservedObject var tracker: BaseDevice    // The tracker device data
+    @ObservedObject var bluetoothData: BluetoothTempData    // Bluetooth data (advertisement/RSSI) for this tracker
+    @ObservedObject var clock = Clock.sharedInstance    // Shared clock to get current time
+    let notCurrentlyReachable: Bool    // Indicates if the device is currently unreachable
     
     var body: some View {
         
         VStack {
             HStack {
-                Text(tracker.getName)
-                    .bold()
-                    .font(.largeTitle)
-                    .lineLimit(1)
-                    .foregroundColor(Color("MainColor"))
-                    .minimumScaleFactor(0.8)
+                Text(tracker.getName)    // Display the tracker's name
+                    .bold()    // Bold font
+                    .font(.largeTitle)    // Large title font size for name
+                    .lineLimit(1)    // Only allow one line for name
+                    .foregroundColor(Color("MainColor"))    // Use the app's main color for the name text
+                    .minimumScaleFactor(0.8)    // Allow text to scale down to 80% if needed to fit
 
                 Spacer()
-                
             }
             .padding(.horizontal)
             .padding(.horizontal, 5)
             .padding(.bottom, 2)
             
-            
             if let lastSeenSeconds = getLastSeenSeconds(device: tracker, currentDate: clock.currentDate) {
                 
-                let connectionStatus = tracker.getType.constants.connectionStatus(advertisementData: bluetoothData.advertisementData_publisher)
+                let connectionStatus = tracker.getType.constants.connectionStatus(advertisementData: bluetoothData.advertisementData_publisher)    // Determine connection status from advertisement data
                 
-                VStack(spacing: 2) {
-                    if notCurrentlyReachable {
-                        Text("no_connection".localized())
-                            .bold()
-                            .foregroundColor(.accentColor)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                    }
-                    else {
-                        if connectionStatus != .Unknown {
-                            Text(connectionStatus.description.localized())
-                                .bold()
-                                //.foregroundColor(connectionStatus == .OwnerDisconnected ? .red : connectionStatus == .OwnerConnected ? .green : formHeaderColor)
-                                .frame(maxWidth: .infinity, alignment: .leading)
+                VStack(spacing: 2) {    // Stack connection status texts with minimal spacing
+                    if notCurrentlyReachable {    // If device is not reachable
+                        Text("no_connection".localized())    // Show "No Connection" text
+                            .bold()    // Bold text
+                            .foregroundColor(.accentColor)    // Accent color text for no connection
+                            .frame(maxWidth: .infinity, alignment: .leading)    // Extend text to full width, left-aligned
+                    } else {    // If the device is reachable
+                        if connectionStatus != .Unknown {    // If a specific connection status is available
+                            Text(connectionStatus.description.localized())    // Show the connection status (e.g., Connected/Disconnected)
+                                .bold()    // Bold font
+                                // .foregroundColor(connectionStatus == .OwnerDisconnected ? .red : connectionStatus == .OwnerConnected ? .green : formHeaderColor)    // (Optional color styling, currently commented out)
+                                .frame(maxWidth: .infinity, alignment: .leading)    // Extend text to full width, left-aligned
                         }
                     }
                     
-                    Text("last_seen".localized() + ": \(getSimpleSecondsText(seconds: lastSeenSeconds))")
-                        .bold()
-                        // .foregroundColor(formHeaderColor)
-                        .frame(maxWidth: .infinity, alignment: .leading)
+                    Text("last_seen".localized() + ": \(getSimpleSecondsText(seconds: lastSeenSeconds))")    // Show how long ago the tracker was last seen
+                        .bold()    // Bold font
+                        // .foregroundColor(formHeaderColor)    // (Optional color styling for text, commented out)
+                        .frame(maxWidth: .infinity, alignment: .leading)    // Extend text to full width, left-aligned
                 }
-
-                .padding(.horizontal, 5)
                 .padding(.horizontal)
+                .padding(.horizontal, 5)
             }
         }
     }
